@@ -1,3 +1,5 @@
+package workShopDos.archivosRelacionados;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -21,7 +23,7 @@ public class HtmlReader {
 	     }
 	     stream.close();
 	     String htmlFileString = buffer.toString();
-	     return HtmlTag.tokenize(htmlFileString);
+	     return HtmlTag.tokenize(htmlFileString); //ejemplo de lo que devuelve esta funcion
 	}
 
 }

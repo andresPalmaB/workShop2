@@ -1,3 +1,5 @@
+package workShopDos.archivosRelacionados;
+
 import java.util.Queue;
 import java.util.Stack;
 
