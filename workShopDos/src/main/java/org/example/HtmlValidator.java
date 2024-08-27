@@ -1,3 +1,5 @@
+package org.example;
+
 import java.util.Queue;
 import java.util.Stack;
 
